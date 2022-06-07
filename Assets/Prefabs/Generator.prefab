@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6435321274568437413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6435321274568437415}
+  - component: {fileID: 6435321274568437412}
+  m_Layer: 0
+  m_Name: Generator
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6435321274568437415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6435321274568437413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6435321274568437412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6435321274568437413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b272f13438b3d84cbd33f6ddc74ecb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLevel: {fileID: 0}
+  length: 150
+  height: 10
+  segmentLength: 1
+  emptyChance: 0.25
+  finishPrefab: {fileID: 8749676040386068853, guid: 0a3e69267cc2451498dd80701e95f38f,
+    type: 3}
+  standPrefabs:
+  - prefab: {fileID: 1190704108199062974, guid: 631f3a9b7f31f1645a94e82e96ecda10,
+      type: 3}
+    weight: 0.5
+  - prefab: {fileID: 1906774542, guid: fd87b31a21532604f989f1a558949aa8, type: 3}
+    weight: 0.4
+  - prefab: {fileID: 8028464576515600196, guid: 1e058add89b75e74ba97dfbf8ba46f8a,
+      type: 3}
+    weight: 0.1
+  itemChance: 0.7
+  itemPrefabs:
+  - prefab: {fileID: 6943568586582292015, guid: 78d39979f034caf48ab9394bc533c5f5,
+      type: 3}
+    weight: 1
+    minNumber: 1
+    maxNumber: 1
+  - prefab: {fileID: 292300279, guid: 01e250ac822c2f4479c97f5d0b70d03e, type: 3}
+    weight: 1
+    minNumber: 1
+    maxNumber: 3
+  - prefab: {fileID: 7117428055029920627, guid: 626805ca57b300a43b773d61a8843656,
+      type: 3}
+    weight: 1
+    minNumber: 1
+    maxNumber: 3
+  - prefab: {fileID: 1339412959097864383, guid: b317777cfc71f3f49883309508db8bcc,
+      type: 3}
+    weight: 2
+    minNumber: 5
+    maxNumber: 20
+  - prefab: {fileID: 5748047014954473284, guid: 7eb505c435624b74c89d03acd2332117,
+      type: 3}
+    weight: 2
+    minNumber: 10
+    maxNumber: 30
+  - prefab: {fileID: 8827770097631799395, guid: 0032195d2715dd44ebd1616e24192755,
+      type: 3}
+    weight: 1
+    minNumber: 1
+    maxNumber: 1
+  - prefab: {fileID: 5851237196413343966, guid: f2c52b3980dd3fc41bb330bc252f49c7,
+      type: 3}
+    weight: 2
+    minNumber: 10
+    maxNumber: 30
