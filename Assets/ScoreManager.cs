@@ -24,7 +24,7 @@ public class ScoreManager : MonoBehaviour
     }
     public void Init()
     {
-        lscore = 0;
+        //lscore = 0;                   // 13/06 after timer gets on 0 the score doesnt gets 0
         UpdateScoreText();
     }
     public void UpdateScoreText(int score=0)

@@ -10,6 +10,7 @@ TagManager:
   - Water
   - Item
   - levelSpawer
+  - Fire
   layers:
   - Default
   - TransparentFX

@@ -494,6 +494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OptionButton: {fileID: 1123127399}
   OptionActive: 0
+  disableScreenTime: 3
   kitchenHandler: {fileID: 1016964772}
   colorMaterials:
   - {fileID: 2100000, guid: 167ef8f843a3f0348a6774d4919b6da4, type: 2}
@@ -5001,6 +5002,11 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 389061233017957081, guid: b7ec3e4a2893feb4d8095de4deea8efd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.038
+      objectReference: {fileID: 0}
     - target: {fileID: 2379071826093154622, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -5024,12 +5030,12 @@ PrefabInstance:
     - target: {fileID: 2379071826185271402, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.4597712
+      value: 0.4231229
       objectReference: {fileID: 0}
     - target: {fileID: 2379071826185271402, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Size.z
-      value: 2.2690163
+      value: 1.74953
       objectReference: {fileID: 0}
     - target: {fileID: 2379071826185271402, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
@@ -5039,12 +5045,12 @@ PrefabInstance:
     - target: {fileID: 2379071826185271402, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Center.y
-      value: -0.020115927
+      value: -0.0016749292
       objectReference: {fileID: 0}
     - target: {fileID: 2379071826185271402, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Center.z
-      value: 0.004249334
+      value: -0.25561595
       objectReference: {fileID: 0}
     - target: {fileID: 2379071827437751585, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
@@ -5103,8 +5109,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2379071827437751586, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
+      propertyPath: jumpForce
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379071827437751586, guid: b7ec3e4a2893feb4d8095de4deea8efd,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379071827437751586, guid: b7ec3e4a2893feb4d8095de4deea8efd,
+        type: 3}
       propertyPath: startTimer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379071827437751586, guid: b7ec3e4a2893feb4d8095de4deea8efd,
+        type: 3}
+      propertyPath: collideForce
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2379071827437751586, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
@@ -5116,6 +5137,11 @@ PrefabInstance:
       propertyPath: kitchenHandler
       value: 
       objectReference: {fileID: 1016964772}
+    - target: {fileID: 2379071827437751586, guid: b7ec3e4a2893feb4d8095de4deea8efd,
+        type: 3}
+      propertyPath: rotateDuration
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 2379071827437751612, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Name
@@ -5129,32 +5155,47 @@ PrefabInstance:
     - target: {fileID: 9105003439005908700, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.21150401
+      value: 0.17659558
       objectReference: {fileID: 0}
     - target: {fileID: 9105003439005908700, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.4182663
+      value: 0.32346836
       objectReference: {fileID: 0}
     - target: {fileID: 9105003439005908700, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Size.z
-      value: 1.3723698
+      value: 0.9486305
       objectReference: {fileID: 0}
     - target: {fileID: 9105003439005908700, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Center.x
-      value: -0.0029788762
+      value: 0.025465094
       objectReference: {fileID: 0}
     - target: {fileID: 9105003439005908700, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.04938153
+      value: -0.025067719
       objectReference: {fileID: 0}
     - target: {fileID: 9105003439005908700, guid: b7ec3e4a2893feb4d8095de4deea8efd,
         type: 3}
       propertyPath: m_Center.z
-      value: -0.22583981
+      value: 0.14660506
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165035202592388226, guid: b7ec3e4a2893feb4d8095de4deea8efd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165035202592388226, guid: b7ec3e4a2893feb4d8095de4deea8efd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165035202592388226, guid: b7ec3e4a2893feb4d8095de4deea8efd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.04
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7ec3e4a2893feb4d8095de4deea8efd, type: 3}

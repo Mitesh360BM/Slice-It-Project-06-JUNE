@@ -14,6 +14,7 @@ public class GameManager : Singleton<GameManager>
     public GameObject OptionButton;
     public bool OptionActive;
     int index;
+    public float disableScreenTime = 3.0f;
 
     public enum GameState
     {

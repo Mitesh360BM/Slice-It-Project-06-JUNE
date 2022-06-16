@@ -935,7 +935,7 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.08
+      value: 2.49
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
@@ -1027,7 +1027,7 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: 0.66999996
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
@@ -1740,7 +1740,7 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.35
+      value: 3.09
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
@@ -2715,12 +2715,12 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: de89ec94f3b000c4da94a43739f61f07,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.61
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: de89ec94f3b000c4da94a43739f61f07,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -123.6
+      value: -123.37
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: de89ec94f3b000c4da94a43739f61f07,
         type: 3}
@@ -3063,7 +3063,7 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: 0.66999996
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
@@ -3465,7 +3465,7 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.05
+      value: 2.46
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
@@ -3639,7 +3639,7 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
@@ -3972,7 +3972,7 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: de89ec94f3b000c4da94a43739f61f07,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 2.88
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: de89ec94f3b000c4da94a43739f61f07,
         type: 3}
@@ -4154,7 +4154,7 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: de89ec94f3b000c4da94a43739f61f07,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 2.88
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: de89ec94f3b000c4da94a43739f61f07,
         type: 3}
@@ -4593,7 +4593,7 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: de89ec94f3b000c4da94a43739f61f07,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 2.88
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: de89ec94f3b000c4da94a43739f61f07,
         type: 3}
@@ -4877,7 +4877,7 @@ PrefabInstance:
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.08
+      value: 2.4900002
       objectReference: {fileID: 0}
     - target: {fileID: 7117428055834213135, guid: 626805ca57b300a43b773d61a8843656,
         type: 3}
